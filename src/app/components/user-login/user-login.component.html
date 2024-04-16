@@ -1,6 +1,7 @@
 <h4>User Login</h4>
 
-<form [formGroup]="form"
+<form 
+[formGroup]="form"
 (ngSubmit)="onSubmit()"
 class="d-flex flex-column gap-3 w-50">
 
@@ -23,9 +24,9 @@ class="d-flex flex-column gap-3 w-50">
 <button
     type="submit"
     class="btn btn-primary"
-    [disabled]="!form.valid"
+    [disabled]="!form.valid">
     Login
-></button>
+</button>
 @if(invalidLogin) {
     <div class="alert alert-danger">
         <strong>Error:</strong>Invalid email or password
