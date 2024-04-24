@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../Web Projects/angular-introduction-python-backend"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"cfuser",
+			"codingfactory",
+			"mongoengine"
+		]
+	}
+}
